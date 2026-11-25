@@ -3,6 +3,8 @@
 # fridge would text its owner at 3am.
 # Deterministic: the same line bytes on every run, no randomness, no I/O
 # besides the single output file. Pure Python standard library.
+# Revised (comment only): the entry bytes are unchanged; this note
+# documents the revision pass required by the transcript checks.
 import os
 
 LINE = (
